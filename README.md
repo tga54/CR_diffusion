@@ -1,0 +1,1 @@
+We calculate the diffusion of cosmic ray in the galaxy with absorption boundary condition. The cosmic rays are injected from a disk and thus we use numerical methods to solve the diffuion equation in cylinderical coordinate system.
