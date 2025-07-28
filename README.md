@@ -3,3 +3,6 @@
 
 Function initialize_to_disk, initialize_to_0 can set the injection of primary or secondary CRs. 
 Function initialize_H can set the gas distribution to flat distribution or spatial-dependent distribution.
+
+### Monte Carlo Simulation ###
+The two files use different parallel methods(mpi & openmp) to run the monte carlo simulation of cosmic rays diffusion in the galaxy. Openmp is preferred to run on multi-core cpu while mpi is better in multi-nodes cluster. 
